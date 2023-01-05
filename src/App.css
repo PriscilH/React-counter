@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+body {
+  font-family: "Montserrat", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* ==========HEADER============= */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Header {
   display: flex;
-  flex-direction: column;
+  width: 1920px;
+  height: 193px;
   align-items: center;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.Header h1 {
+  display: flex;
+  text-align: center;
+  font-size: 48px;
+  margin : 71px 0 63px 65px;
+  font-weight: 400;
+}
+
+.Header img {
+  height: 80px;
+  margin-left: 111px;
+}
+
+/* ========COUNTER======== */
+
+.Counter {
+background-color: #5C48D3;
+height: 150px;
+width: 150px;
+font-weight: 400;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 308px ;
+margin-left: 645px;
+color: #Ffff;
+font-size: 96px; 
+border-radius: 15px;
+}
+
+/* ===========BUTTONS============== */
+
+.Plus {
+  width: 52.5px;
+  height: 52.5px;
+  color: #000;
+  border: hidden;
+  background-color: white;
+  font-size:larger;
+  margin-left: 170px;
+  margin-top: -60px;
+}
+
+.Moins {
+  width: 52.5px;
+  height: 52.5px;
+  color: #000;
+  border: hidden;
+  background-color: white;
+  font-size: larger;
+  margin-right: 170px;
+  margin-top: -80px;
+}
+
+.Reset {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 77px;
+}
+
+.buttonReset {
+  width: 150px;
+  height: 60px;
+  border: hidden;
+  background-color: #5C48D3;
   color: white;
+  font-size: 32px;
+  font-weight: 600;
+  border-radius: 15px;
+  font-style: normal;
+  line-height: 39px;
 }
 
-.App-link {
-  color: #61dafb;
+/* ======FOOTER====== */
+
+.Footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 301px;
+  margin-bottom: 100px;
+  font-size: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.bold {
+  font-weight: bold;
 }
